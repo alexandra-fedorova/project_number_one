@@ -4,8 +4,8 @@ public class Task1 {
     public static void main(String[] args) {
 
         System.out.println("Я");
-        System.out.println("хорошо");
-        System.out.println("знаю");
+        System.out.println("Хорошо");
+        System.out.println("Знаю");
         System.out.println("Java.");
 
     }
