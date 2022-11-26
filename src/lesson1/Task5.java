@@ -8,12 +8,12 @@ public class Task5 {
 
         Scanner s = new Scanner(System.in);
         System.out.println("Введите числа");
-        int num1 = s.nextInt();
-        int num2 = s.nextInt();
-        int num3 = s.nextInt();
+        int a = s.nextInt();
+        int b = s.nextInt();
+        int c = s.nextInt();
 
-        System.out.println(num1);
-        System.out.println(num2);
-        System.out.println(num3);
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
     }
 }
