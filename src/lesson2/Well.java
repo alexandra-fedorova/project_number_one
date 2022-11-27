@@ -9,6 +9,9 @@ public class Well {
     private Boolean isWaterproofed;
     private HatchType hatchType;
 
+    public Well() {
+
+    }
 
     public Well(String material, Double height, Integer diameter, Boolean isWaterproofed, HatchType hatchType) {
         this.systemType = systemType;
@@ -66,4 +69,16 @@ public class Well {
     public void setHatchType(HatchType hatchType) {
         this.hatchType = hatchType;
     }
+
+    public String toString() {
+        return "Well{" +
+                "systemType='" + systemType + '\'' +
+                ", material='" + material +  '\'' +
+                ", height=" + height +
+                ", diameter=" + diameter +
+                ", isWaterproofed=" + isWaterproofed +
+                ", hatchType=" + hatchType +
+                '}';
+    }
+
 }

@@ -9,65 +9,65 @@ public class Calculator {
         System.out.println(mul(12345, 12345));
         System.out.println(div(12.34, 56.78));
     }
-    static int sum(int a, int b){
 
-        int c = a + b;
-        return c;
+    static int sum(int a, int b) {
+
+        return a + b;
     }
-    static double sum(double a, double b){
 
-        double c = a + b;
-        return c;
+    static double sum(double a, double b) {
+
+        return a + b;
     }
-    static long sum(long a, long b){
 
-        long c = a + b;
-        return c;
+    static long sum(long a, long b) {
+
+        return a + b;
     }
-    static int sub(int a, int b){
 
-        int c = a - b;
-        return c;
+    static int sub(int a, int b) {
+
+        return a - b;
     }
-    static double sub(double a, double b){
 
-        double c = a - b;
-        return c;
+    static double sub(double a, double b) {
+
+        return a - b;
     }
-    static long sub(long a, long b){
 
-        long c = a - b;
-        return c;
+    static long sub(long a, long b) {
+
+        return a - b;
     }
-    static int mul(int a, int b){
 
-        int c = a * b;
-        return c;
+    static int mul(int a, int b) {
+
+        return a * b;
     }
-    static double mul(double a, double b){
 
-        double c = a * b;
-        return c;
+    static double mul(double a, double b) {
+
+        return a * b;
     }
-    static long mul(long a, long b){
 
-        long c = a * b;
-        return c;
+    static long mul(long a, long b) {
+
+        return a * b;
     }
-    static int div(int a, int b){
 
-        int c = a / b;
-        return c;
+    static double div(int a, int b) {
+
+        return (a * 1.0 / b);
     }
-    static double div(double a, double b){
 
-        double c = a / b;
-        return c;
+    static double div(double a, double b) {
+
+        return a / b;
     }
-    static long div(long a, long b){
 
-        long c = a / b;
-        return c;
+    static double div(long a, long b) {
+
+        return (a * 1.0 / b);
     }
 }
 
