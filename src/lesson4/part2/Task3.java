@@ -7,12 +7,12 @@ public class Task3 {
 
     public static void main(String[] args) {
 
-        change();
+        Integer[] numbers = {1, 2, 3, 4};
+        change(numbers);
     }
 
-    public static void change() {
+    public static void change(Integer[] numbers) {
 
-        Integer[] numbers = {1, 2, 3, 4};
         System.out.println("Array 1: " + Arrays.toString(numbers));
 
         int a;

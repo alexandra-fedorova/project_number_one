@@ -5,12 +5,11 @@ import java.util.Arrays;
 public class Task4 {
     public static void main(String[] args) {
 
-        unique();
+        Integer[] numbers = {2, 2, 3, 3, 2, 1};
+        unique(numbers);
     }
 
-    public static void unique() {
-        Integer[] numbers = {2, 2, 3, 3, 2, 1};
-
+    public static void unique(Integer[] numbers) {
 
         for (int i = 0; i < numbers.length; i++) {
             int a = 0;

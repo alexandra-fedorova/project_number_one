@@ -4,12 +4,11 @@ public class Task6 {
 
     public static void main(String[] args) {
 
-        oneOrThree();
+        Integer[] numbers = {9, 8, 7, 6, 5, 4, 3, 2, 1};
+        oneOrThree(numbers);
 
     }
-     public static void oneOrThree() {
-
-        Integer[] numbers = {9, 8, 7, 6, 5, 4, 3, 2, 1};
+     public static void oneOrThree(Integer[] numbers) {
 
         boolean isThereOneOrThree = false;
 
