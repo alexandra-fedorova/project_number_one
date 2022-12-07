@@ -13,6 +13,5 @@ public class Task3 {
     public static void censorship(String censoringText, String censoredWord) {
 
         System.out.println(censoringText.replace(censoredWord, "[вырезано цензурой]"));
-
     }
 }
