@@ -3,7 +3,7 @@ package lesson5;
 public class Task2 {
     public static void main(String[] args) {
 
-        String testWord = new String("шалаш");
+        String testWord = new String("Шалаш");
         palindromeOrNot(testWord);
 
     }
@@ -12,6 +12,6 @@ public class Task2 {
 
         StringBuffer notReversed = new StringBuffer(testWord);
         String reversed = new StringBuffer(testWord).reverse().toString();
-        System.out.println(reversed.equals(notReversed.toString()));
+        System.out.println(reversed.equalsIgnoreCase(notReversed.toString()));
     }
 }
